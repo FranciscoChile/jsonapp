@@ -1,0 +1,11 @@
+{"property": "firstName", "previous": null, "current": "Jim"}
+{"property": "firstName", "previous": "James", "current": null}
+{"property": "firstName", "previous": null, "current": null}
+{"property": "firstName", "previous": "James", "current": "Jim"}
+{"property": "subscription.status", "previous": "ACTIVE", "current": "EXPIRED"}
+{"property": "services", "added": ["Oil Change"], "removed": ["Interior/Exterior Wash"]}
+{"property": "firstName", "previous": "James", "current": "James"}
+{"property": "subscription.status", "previous": "ACTIVE", "current": "ACTIVE"}
+{"property": "services", "added": ["Oil Change", "Fuel"], "removed": ["Interior/Exterior Wash"]}
+{"property": "vehicles[id].displayName", "previous": "My Car", "current": "23 Ferrari 296 GTS"}
+{"property": "vehicles[@AuditKey].displayName", "previous": "My Car", "current": "23 Ferrari 296 GTS"}

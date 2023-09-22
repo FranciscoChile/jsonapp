@@ -1,0 +1,18 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Property",
+    "description": "Property update",
+    "type": "object",
+    "properties": {
+        "property": {
+            "type": "string"
+        },
+        "previous": {
+            "type": ["string", "null"]
+        },
+        "current": {
+            "type": ["string", "null"]
+        }
+    },
+    "required": ["property", "previous", "current"]
+}

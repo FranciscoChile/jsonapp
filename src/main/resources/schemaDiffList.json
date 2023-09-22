@@ -1,0 +1,18 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Property",
+    "description": "Property update",
+    "type": "object",
+    "properties": {
+        "property": {
+            "type": "string"
+        },
+        "added": {
+            "type": ["array", "null"]
+        },
+        "removed": {
+            "type": ["array", "null"]
+        }
+    },
+    "required": ["property", "added", "removed"]
+}
